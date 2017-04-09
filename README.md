@@ -1,2 +1,2 @@
-# codejam
-codejam, apac, kickstart, ...  My Java Solution.
+# Codejam
+Codejam, apac, kickstart, ...  My Java Solution.
