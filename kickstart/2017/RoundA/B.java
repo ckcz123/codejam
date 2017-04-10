@@ -49,7 +49,7 @@ public class Main {
 
 
     public static void main(String[] args) throws Exception {
-        //System.setOut(new PrintStream("output.txt"));
+        System.setOut(new PrintStream("output.txt"));
         Scanner scanner=new Scanner(System.in);
         int times=scanner.nextInt();
         long start=System.currentTimeMillis();

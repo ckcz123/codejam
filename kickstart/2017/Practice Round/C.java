@@ -9,7 +9,7 @@ public class Main {
     }
 
     public static void main(String[] args) throws Exception {
-        //System.setOut(new PrintStream("output.txt"));
+        System.setOut(new PrintStream("output.txt"));
         long start=System.currentTimeMillis();
         Scanner scanner=new Scanner(System.in);
         int times=scanner.nextInt();
