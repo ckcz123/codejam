@@ -22,8 +22,8 @@ Codejam, apac, kickstart, ...  My Java Solution.
 ### KickStart
 
 - 2017
-  - [Practice Round](kickstart/2017/Practice%20Round): A
-  - [Round A](kickstart/2017/RoundA): 
+  - [Practice Round](kickstart/2017/Practice%20Round): A/B/C
+  - [Round A](kickstart/2017/RoundA): A/B
 
 ### APAC
 - 2017
