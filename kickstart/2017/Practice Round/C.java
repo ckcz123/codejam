@@ -9,7 +9,7 @@ public class Main {
     }
 
     public static void main(String[] args) throws Exception {
-        System.setOut(new PrintStream("output.txt"));
+        //System.setOut(new PrintStream("output.txt"));
         long start=System.currentTimeMillis();
         Scanner scanner=new Scanner(System.in);
         int times=scanner.nextInt();
@@ -18,7 +18,6 @@ public class Main {
         }
         long end=System.currentTimeMillis();
         System.err.println(String.format("Time used: %.3fs", (end-start)/1000.0));
-
     }
 
 }
