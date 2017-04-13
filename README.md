@@ -5,7 +5,6 @@ ALL JAVA SOLUTIONS HERE!
 ## Contest List
 
 ### Codejam
-
 - 2017
   - [Qualification Round](codejam/2017/Qualification%20Round): A/B/C/D
 - 2016
@@ -21,7 +20,6 @@ ALL JAVA SOLUTIONS HERE!
   - [Round 1A](codejam/2014/Round1A): A/B/C
 
 ### KickStart
-
 - 2017
   - [Practice Round](kickstart/2017/Practice%20Round): A/B/C
   - [Round A](kickstart/2017/RoundA): A/B
@@ -31,6 +29,8 @@ ALL JAVA SOLUTIONS HERE!
   - [Round A](apac/2017/RoundA): A/B/C/D
   - [Round B](apac/2017/RoundB): A/B/C
   - [Round C](apac/2017/RoundC): A
+- 2016
+  - [Practice Round](apac/2016/Practice%20Round): A/B/C
   
 ### Codejam To I/O for Women
 - [2017](IO%20for%20Women/2017): A/B/C/D
