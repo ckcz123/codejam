@@ -5,15 +5,9 @@ public class Main {
 
     private String solve(Scanner scanner) {
         return String.valueOf(solveLarge(scanner.nextLong()));
-        /*int[] dp=solveSmall();
-        for (int i=1;i<1000000;i++) {
-            long large=solveLarge(i);
-            if (large!=dp[i]) System.out.println(String.format("i=%d small=%d large=%d", i, dp[i], large));
-        }
-        return "";*/
     }
 
-    private int[] solveSmall() {
+    /*private int[] solveSmall() {
         int[] dp=new int[1000000];
         Arrays.fill(dp, Integer.MAX_VALUE);
         dp[1]=1;
@@ -32,7 +26,7 @@ public class Main {
             }
         }
         return dp;
-    }
+    }*/
 
     private long solveLarge(long n) {
         if (n<=9) return n;

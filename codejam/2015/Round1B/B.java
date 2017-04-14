@@ -7,19 +7,6 @@ public class Main {
 
     private String solve(Scanner scanner) {
         int r=scanner.nextInt(), c=scanner.nextInt(), n=scanner.nextInt();
-
-        /*for (int r=3;r<=5;r++) {
-            for (int c=3;c<=5;c++) {
-                for (int n=(r*c+1)/2+1;n<=r*c;n++) {
-                    int small=solveSmall(r, c, n), large=solveLarge(r, c, n);
-                    if (small!=large)
-                        System.out.println(String.format("r=%d c=%d n=%d small=%d large=%d",
-                                r,c,n,small,large));
-                }
-            }
-        }
-        return "";*/
-
         return String.valueOf(solveLarge(r,c,n));
     }
 
@@ -75,7 +62,7 @@ public class Main {
         return total-2*res;
     }
 
-    private int solveSmall(int r, int c, int n) {
+    /*private int solveSmall(int r, int c, int n) {
         int total=r*c, ans=Integer.MAX_VALUE;
         for (int i=0;i<(1<<total);i++) {
             boolean[][] has=new boolean[r][c];
@@ -99,7 +86,7 @@ public class Main {
             ans=Math.min(ans, cnt);
         }
         return ans;
-    }
+    }*/
 
     public static void main(String[] args) throws Exception {
         System.setOut(new PrintStream("E:\\desktop\\output.txt"));

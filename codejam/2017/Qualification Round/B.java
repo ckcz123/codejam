@@ -4,13 +4,6 @@ import java.util.*;
 public class Main {
 
     private String solve(Scanner scanner) {
-        /*
-        for (int i=1;i<=200000;i++) {
-            int small=solveSmall(i), large=(int)solveLarge(""+i);
-            if (small!=large)
-                System.out.println("ERROR: i="+i+" small="+small+" large="+large);
-        }
-        */
         return String.valueOf(solveLarge(scanner.next()));
     }
 
@@ -32,8 +25,7 @@ public class Main {
         return Long.parseLong(builder.toString());
     }
 
-
-    private int solveSmall(int n) {
+    /*private int solveSmall(int n) {
         for (int i=n;i>=1;i--)
             if (isTidy(i))
                 return i;
@@ -46,8 +38,7 @@ public class Main {
             if (s.charAt(i)>s.charAt(i+1))
                 return false;
         return true;
-    }
-
+    }*/
 
     public static void main(String[] args) throws Exception {
         //System.setOut(new PrintStream("output.txt"));

@@ -11,10 +11,10 @@ ALL JAVA SOLUTIONS HERE!
 - 2015
   - [Qualification Round](codejam/2015/Qualification%20Round): A/B/C/D
   - [Round 1A](codejam/2015/Round1A): A/B/C
-  - [Round 1B](codejam/2015/Round1B): A/B
+  - [Round 1B](codejam/2015/Round1B): A/B/C
   - [Round 1C](codejam/2015/Round1C): A/B/C
   - [Round 2](codejam/2015/Round2): A/B
-  - [Round 3](codejam/2015/Round3): A/B/C/D
+  - [Round 3](codejam/2015/Round3): A/B/C(s)/D(s)
 - 2014
   - [Qualification Round](codejam/2014/Qualification%20Round): A/B/C/D
   - [Round 1A](codejam/2014/Round1A): A/B/C
@@ -35,7 +35,7 @@ ALL JAVA SOLUTIONS HERE!
 - 2016
   - [Practice Round](apac/2016/Practice%20Round): A/B/C
   
-### Codejam To I/O for Women
+### Codejam to I/O for Women
 - [2017](IO%20for%20Women/2017): A/B/C/D
 - [2016](IO%20for%20Women/2016): A/B/C/D
 - [2015](IO%20for%20Women/2015): A/B/C/D

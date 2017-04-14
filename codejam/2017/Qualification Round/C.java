@@ -5,13 +5,6 @@ public class Main {
 
     private String solve(Scanner scanner) {
         long n=scanner.nextLong(), k=scanner.nextLong();
-        /*
-        String small=solveSmall(n, k), large=solveLarge(n,k);
-        if (!small.equals(large)) {
-            System.err.println(String.format("ERROR: n=%d, k=%d, small=%s, large=%s",
-                    n,k,small,large));
-        }
-        */
         return solveLarge(n, k);
     }
 
@@ -29,7 +22,7 @@ public class Main {
         return Math.max(a,b)+" "+Math.min(a,b);
     }
 
-    private String solveSmall(long n, long k) {
+    /*private String solveSmall(long n, long k) {
         PriorityQueue<Long> priorityQueue=new PriorityQueue<>((o1,o2)->Long.compare(o2,o1));
         priorityQueue.offer(n);
         for (long i=1;i<=k;i++) {
@@ -39,8 +32,7 @@ public class Main {
             priorityQueue.offer(b);
         }
         return "";
-    }
-
+    }*/
 
     public static void main(String[] args) throws Exception {
         System.setOut(new PrintStream("output.txt"));
