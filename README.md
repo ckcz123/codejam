@@ -31,6 +31,7 @@ ALL JAVA SOLUTIONS HERE!
   - [Round B](apac/2017/RoundB): A/B/C
   - [Round C](apac/2017/RoundC): A/B/C
   - [Round D](apac/2017/RoundD): A/B/C/D
+  - [Round E](apac/2017/RoundE): A/B/C
 - 2016
   - [Practice Round](apac/2016/Practice%20Round): A/B/C
   
