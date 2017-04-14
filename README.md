@@ -13,7 +13,7 @@ ALL JAVA SOLUTIONS HERE!
   - [Round 1A](codejam/2015/Round1A): A/B/C
   - [Round 1B](codejam/2015/Round1B): A/B/C
   - [Round 1C](codejam/2015/Round1C): A/B/C
-  - [Round 2](codejam/2015/Round2): A/B
+  - [Round 2](codejam/2015/Round2): A/B/C(s)
   - [Round 3](codejam/2015/Round3): A/B/C(s)/D(s)
 - 2014
   - [Qualification Round](codejam/2014/Qualification%20Round): A/B/C/D
