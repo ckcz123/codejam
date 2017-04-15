@@ -7,6 +7,7 @@ ALL JAVA SOLUTIONS HERE!
 ### Codejam
 - 2017
   - [Qualification Round](codejam/2017/Qualification%20Round): A/B/C/D
+  - [Round 1A](codejam/2017/Round1A): A/B/C(s)
 - 2016
   - [Qualification Round](codejam/2016/Qualification%20Round): A/B/C/D
   - [Round 1A](codejam/2016/Round1A): A/B/C
