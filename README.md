@@ -39,6 +39,7 @@ ALL JAVA SOLUTIONS HERE!
   - [Round E](apac/2017/RoundE): A/B/C/D(s)
 - 2016
   - [Practice Round](apac/2016/Practice%20Round): A/B/C
+  - [Round A](apac/2016/RoundA): A/B/C/D
   
 ### Codejam to I/O for Women
 - [2017](IO%20for%20Women/2017): A/B/C/D
