@@ -55,7 +55,7 @@ public class Main {
 
 
     // solve small...
-    private static List<String>[] lists=new List[11];
+    /*private static List<String>[] lists=new List[11];
     private String solveSmall(int n, long k) {
         if (lists[n]==null) {
             lists[n]=generateParenthesis(n);
@@ -75,7 +75,7 @@ public class Main {
         }
         if (n>0) generateParenthesis(ans, s+"(", n-1, m+1);
         if (m>0) generateParenthesis(ans, s+")", n, m-1);
-    }
+    }*/
 
     public static void main(String[] args) throws Exception {
         System.setOut(new PrintStream("output.txt"));
