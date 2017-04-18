@@ -43,6 +43,7 @@ ALL JAVA SOLUTIONS HERE!
   - [Round A](apac/2016/RoundA): A/B/C/D
   - [Round B](apac/2016/RoundB): A/B/C/D
   - [Round C](apac/2016/RoundC): A/B/C/D
+  - [Round D](apac/2016/RoundD): A/B/C
 - 2015
   - [Round A](apac/2015/RoundA): A/B/C/D
   - [Round B](apac/2015/RoundB): A/B/C/D
