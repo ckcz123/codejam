@@ -25,23 +25,60 @@ public class Main {
         }
         long ans=1;
         for (int i=0;i<26;i++) {
-            if (cnt[i]!=0)
-                arrayList.add(String.valueOf((char)('a'+i)));
+            if (cnt[i]!=0) arrayList.add(String.valueOf((char)('a'+i)));
             ans*=fact(cnt[i], mod);
             ans%=mod;
         }
+        int size=0;
         n=arrayList.size();
+        boolean[] used=new boolean[n];
+        boolean[][] linked=new boolean[n][n];
+        for (int i=0;i<n;i++) {
+            for (int j=0;j<n;j++) {
+                linked[i][j]=linked[j][i]=hasCommon(arrayList.get(i), arrayList.get(j));
+            }
+        }
+        for (int i=0;i<n;i++) {
+            if (used[i]) continue;
+            used[i]=true;
+            ArrayList<String> strings=new ArrayList<>();
+            strings.add(arrayList.get(i));
+            Queue<Integer> queue=new LinkedList<>();
+            queue.offer(i);
+            while (!queue.isEmpty()) {
+                int u=queue.poll();
+                for (int j=0;j<n;j++) {
+                    if (!used[j] && linked[u][j]) {
+                        used[j]=true; strings.add(arrayList.get(j));
+                        queue.offer(j);
+                    }
+                }
+            }
+            size++;
+            ans*=cal(strings, mod);
+            ans%=mod;
+        }
+        return String.valueOf(ans*fact(size, mod)%mod);
+    }
+
+    private boolean hasCommon(String s, String t) {
+        for (char c='a';c<='z';c++) {
+            if (s.indexOf(c)!=-1 && t.indexOf(c)!=-1) return true;
+        }
+        return false;
+    }
+
+    private long cal(ArrayList<String> strings, long mod) {
+        int n=strings.size();
         int[] has=new int[26];
-        for (String s: arrayList) {
+        for (String s: strings) {
             boolean[] v=new boolean[26];
             for (char c: s.toCharArray()) {
                 v[c-'a']=true;
             }
             for (int i=0;i<26;i++) if (v[i]) has[i]++;
         }
-
-        long v=dfs(arrayList, new boolean[26], '\0', n, new boolean[n], 0, has, mod);
-        return String.valueOf(ans*v%mod);
+        return dfs(strings, new boolean[26], '\0', n, new boolean[n], 0, has, mod);
     }
 
     private long dfs(ArrayList<String> strings, boolean[] used, char c, int n, boolean[] visited,
@@ -88,7 +125,7 @@ public class Main {
     }
 
     public static void main(String[] args) throws Exception {
-//        System.setOut(new PrintStream("output.txt"));
+        System.setOut(new PrintStream("output.txt"));
         Scanner scanner=new Scanner(System.in);
         int times=scanner.nextInt();
         long start=System.currentTimeMillis();
