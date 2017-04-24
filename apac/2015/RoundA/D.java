@@ -1,6 +1,10 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * APAC 2015 Round A Problem D: Cut Tiles
+ * Check README.md for explanation.
+ */
 public class Main {
 
     public String solve(Scanner scanner) {

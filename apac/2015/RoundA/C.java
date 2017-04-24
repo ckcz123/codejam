@@ -1,6 +1,10 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * APAC 2015 Round A Problem C: Addition
+ * Check README.md for explanation.
+ */
 public class Main {
 
     class Varible {

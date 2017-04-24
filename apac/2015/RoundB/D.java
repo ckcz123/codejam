@@ -4,6 +4,10 @@ import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
+/**
+ * APAC 2015 Round B Problem D: Parentheses Order
+ * Check README.md for explanation.
+ */
 public class Main {
 
 

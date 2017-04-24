@@ -1,6 +1,10 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * APAC 2015 Round B Problem B: New Years Eve
+ * Check README.md for explanation.
+ */
 public class Main {
 
     public String solve(Scanner scanner) {

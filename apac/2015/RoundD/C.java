@@ -2,6 +2,10 @@ import java.io.PrintStream;
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * APAC 2015 Round D Problem C: Sort a scrambled itinerary
+ * Check README.md for explanation.
+ */
 public class Main {
 
     public String solve(Scanner scanner) {

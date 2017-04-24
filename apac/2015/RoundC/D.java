@@ -4,6 +4,10 @@ import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
+/**
+ * APAC 2015 Round C Problem D: Tetris
+ * Check README.md for explanation.
+ */
 public class Main {
 
     private String solve(Scanner scanner) {
