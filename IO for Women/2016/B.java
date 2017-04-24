@@ -1,6 +1,10 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * Codejam to I/O for Women 2016 Problem B: Dance Around The Clock
+ * Check README.md for explanation.
+ */
 public class Main {
 
     private String solve(Scanner scanner) {
