@@ -1,6 +1,10 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * KickStart 2017 Practice Round Problem A: Country Leader
+ * Check README.md for explanation.
+ */
 public class Main {
 
     class Node {
