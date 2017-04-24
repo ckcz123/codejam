@@ -1,6 +1,10 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * APAC 2017 Round D Problem D: Stretch Rope
+ * Check README.md for explanation.
+ */
 public class Main {
 
     class SegTree {

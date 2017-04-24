@@ -1,6 +1,10 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * APAC 2017 Round D Problem B: Sitting
+ * Check README.md for explanation.
+ */
 public class Main {
 
     public String solve(Scanner scanner) {

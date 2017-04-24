@@ -1,6 +1,10 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * APAC 2017 Round A Problem D: Clash Royale
+ * Check README.md for explanation.
+ */
 public class Main {
 
     class Card {
@@ -29,26 +33,27 @@ public class Main {
             }
             maxAtk[i]=(i==0?0:maxAtk[i-1])+cards[i].a[cards[i].k];
         }
-        solve(m, n-1, cards, Math.min(n, 8), 0, maxAtk);
+        dfs(m, n-1, cards, Math.min(n, 8), 0, maxAtk);
         return String.valueOf(result);
     }
 
     private long result=0;
 
-    private void solve(long m, int n, Card[] cards, int remain, long current, long[] maxAtk) {
+    private void dfs(long m, int n, Card[] cards, int remain, long current, long[] maxAtk) {
         if (n<0 || remain==0) {
             if (current>result) result=current;
             return;
         }
+        // prune
         if (current+maxAtk[n]<=result) return;
-        solve(m, n-1, cards, remain, current, maxAtk);
+        dfs(m, n-1, cards, remain, current, maxAtk);
         Card card=cards[n];
-        solve(m, n-1, cards, remain-1, current+card.a[card.l], maxAtk);
+        dfs(m, n-1, cards, remain-1, current+card.a[card.l], maxAtk);
         long need=0;
         for (int i=card.l+1;i<=card.k;i++) {
             need+=card.c[i-1];
             if (m<need) break;
-            solve(m-need, n-1, cards, remain-1, current+card.a[i], maxAtk);
+            dfs(m-need, n-1, cards, remain-1, current+card.a[i], maxAtk);
         }
     }
 

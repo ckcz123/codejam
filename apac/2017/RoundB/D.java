@@ -1,6 +1,10 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * APAC 2017 Round B Problem D: Sherlock and Permutation Sorting
+ * Check README.md for explanation.
+ */
 public class Main {
 
     private long mode;

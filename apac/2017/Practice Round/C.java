@@ -1,6 +1,10 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * APAC 2017 Practice Round Problem C: Not So Random
+ * Check README.md for explanation.
+ */
 public class Main {
 
     private String solve(Scanner scanner) {

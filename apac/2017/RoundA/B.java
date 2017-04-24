@@ -1,6 +1,10 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * APAC 2017 Round A Problem B: Rain
+ * Check README.md for explanation.
+ */
 public class Main {
 
     private String solve(Scanner scanner) {

@@ -1,6 +1,10 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * APAC 2017 Round A Problem C: Jane's Flower Shop
+ * Check README.md for explanation.
+ */
 public class Main {
 
     private String solve(Scanner scanner) {

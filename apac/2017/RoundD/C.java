@@ -1,6 +1,10 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * APAC 2017 Round D Problem C: Codejamon Cipher
+ * Check README.md for explanation.
+ */
 public class Main {
 
     public String solve(Scanner scanner) {

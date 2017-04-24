@@ -3,6 +3,10 @@ import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
+/**
+ * APAC 2017 Round E Problem D: Sorting Array
+ * Check README.md for explanation.
+ */
 public class Main {
 
     class Interval {

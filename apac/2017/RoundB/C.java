@@ -1,6 +1,10 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * APAC 2017 Round B Problem C: Watson and Intervals
+ * Check README.md for explanation.
+ */
 public class Main {
 
     class Inteval implements Comparable<Inteval> {
