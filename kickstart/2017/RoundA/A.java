@@ -1,6 +1,10 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * KickStart 2017 Round A Problem A: Square Counting
+ * Check README.md for explanation.
+ */
 public class Main {
 
     private String solve(Scanner scanner) {
@@ -48,6 +52,25 @@ public class Main {
         long s=sum(u, mod);
         return s*s%mod;
     }
+
+    /*private long solveSmall(int m, int n) {
+        long cnt=0;
+        for (int i=1;i<=r;i++) {
+            for (int j=1;j<=c;j++) {
+                int k=Math.min(Math.min(i-1, r-i), Math.min(j-1, c-j));
+                cnt+=k*(k+1);
+                cnt%=1000000007;
+            }
+        }
+        for (int i=1;i<r;i++) {
+            for (int j=1;j<c;j++) {
+                int k=Math.min(Math.min(i, r-i), Math.min(j, c-j));
+                cnt+=k*k;
+                cnt%=1000000007;
+            }
+        }
+        return cnt;
+    }*/
 
 
     public static void main(String[] args) throws Exception {

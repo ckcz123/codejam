@@ -3,6 +3,10 @@ import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
+/**
+ * KickStart 2017 Round A Problem C: Space Cubes
+ * Check README.md for explanation.
+ */
 public class Main {
 
     class Star {
