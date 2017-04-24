@@ -1,7 +1,7 @@
 # Codejam
 Codejam, apac, kickstart, I/O for Women...  2017, 2016, 2015, 2014...  
 https://code.google.com/codejam/past-contests  
-ALL JAVA SOLUTIONS HERE!
+ALL EXPLANATIONS AND JAVA SOLUTIONS HERE!
 
 ## Contest List
 

@@ -1,6 +1,10 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * APAC 2016 Practice Round Problem B: Captain Hammer
+ * Check README.md for explanation.
+ */
 public class Main {
 
     private String solve(Scanner scanner) {

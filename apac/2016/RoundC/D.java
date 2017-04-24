@@ -2,6 +2,10 @@ import java.io.PrintStream;
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * APAC 2016 Round C Problem D: gMatrix
+ * Check README.md for explanation.
+ */
 public class Main {
 
     public String solve(Scanner scanner) {

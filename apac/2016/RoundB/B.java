@@ -3,6 +3,10 @@ import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
+/**
+ * APAC 2016 Round B Problem B: gWheels
+ * Check README.md for explanation.
+ */
 public class Main {
 
     private String solve(Scanner scanner) {

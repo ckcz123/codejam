@@ -2,6 +2,10 @@ import java.io.PrintStream;
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * APAC 2016 Round D Problem C: IP Address Summarization
+ * Check README.md for explanation.
+ */
 public class Main {
 
     class Trie {

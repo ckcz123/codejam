@@ -1,6 +1,10 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * APAC 2016 Round D Problem D: Virtual Rabbit
+ * Check README.md for explanation.
+ */
 public class Main {
 
     private String solve(Scanner scanner) {

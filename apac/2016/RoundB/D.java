@@ -3,6 +3,10 @@ import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
+/**
+ * APAC 2016 Round B Problem D: Albocede DNA
+ * Check README.md for explanation.
+ */
 public class Main {
 
     private String solve(Scanner scanner) {
@@ -11,10 +15,10 @@ public class Main {
         long mod=1000000007;
         long[][][][] dp=new long[len+1][len/2+3][len/2+3][2];
         dp[0][0][0][0]=1;
-        for (int i=1;i<=len;i++) { // 长度
-            for (int j=0;j<=len/2;j++) { // a数量
-                for (int k=0;k<=len/2;k++) { // b数量
-                    for (int l=0;l<2;l++) { // 是否开始处理c或d
+        for (int i=1;i<=len;i++) { // current chracter
+            for (int j=0;j<=len/2;j++) { // number of a
+                for (int k=0;k<=len/2;k++) { // number of b
+                    for (int l=0;l<2;l++) { // whether to deal with c/d
                         if (s.charAt(i-1)=='a') {
                             if (k==0) {
                                 dp[i][j+1][k][0]+=dp[i-1][j][k][l];
