@@ -35,6 +35,7 @@ ALL EXPLANATIONS AND JAVA SOLUTIONS HERE!
 - 2013
   - [Qualification Round](codejam/2013/Qualification%20Round): A/B/C/D(s)
   - [Round 1A](codejam/2013/Round1A): A/B/C(s)
+  - [Round 1B](codejam/2013/Round1B): A/B/C
 
 ### KickStart
 - 2017
