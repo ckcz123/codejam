@@ -37,7 +37,8 @@ ALL EXPLANATIONS AND JAVA SOLUTIONS HERE!
   - [Round 1A](codejam/2013/Round1A): A/B/C(s)
   - [Round 1B](codejam/2013/Round1B): A/B/C
   - [Round 1C](codejam/2013/Round1C): A/B/C(s)
-  - [Round 2](codejam/2013/Round2): A
+  - [Round 2](codejam/2013/Round2): A/B/C
+  - [Round 3](codejam/2013/Round3): A
 
 ### KickStart
 - 2017
