@@ -6,6 +6,7 @@ import java.util.stream.Collectors;
 /**
  * Codejam 2013 Qualification Round
  * Problem D. Treasure
+ * Only small solved.
  */
 public class Main {
 
