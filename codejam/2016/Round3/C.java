@@ -5,6 +5,7 @@ import java.util.stream.Collectors;
 /**
  * Codejam 2016 Round 3
  * Problem C. Rebel Against The Empire
+ * Only small solved.
  */
 public class Main {
 
