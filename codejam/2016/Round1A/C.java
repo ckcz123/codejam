@@ -2,6 +2,10 @@ import java.io.PrintStream;
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * Codejam 2016 Round 1A
+ * Problem C. BFFs
+ */
 public class Main {
 
     private String solve(Scanner scanner) {

@@ -1,6 +1,10 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * Codejam 2016 Round 1A
+ * Problem A. The Last Word
+ */
 public class Main {
 
     private String solve(Scanner scanner) {
