@@ -3,6 +3,10 @@ import java.math.BigInteger;
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * Codejam 2013 Qualification Round
+ * Problem D. Treasure
+ */
 public class Main {
 
     private String solve(Scanner scanner) throws Throwable {
