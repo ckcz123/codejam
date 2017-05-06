@@ -1,6 +1,10 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * Codejam 2016 Round 1B
+ * Problem B. Close Match
+ */
 public class Main {
 
     long delta=Long.MAX_VALUE;
