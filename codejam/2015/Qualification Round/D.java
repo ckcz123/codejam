@@ -1,6 +1,10 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * Codejam 2015 Qualification Round
+ * Problem D. Ominous Omino
+ */
 public class Main {
 
     private String solve(Scanner scanner) {

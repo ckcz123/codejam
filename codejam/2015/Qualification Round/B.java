@@ -1,6 +1,10 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * Codejam 2015 Qualification Round
+ * Problem B. Infinite House of Pancakes
+ */
 public class Main {
 
     private String solve(Scanner scanner) {
