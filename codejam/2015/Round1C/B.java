@@ -1,6 +1,10 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * Codejam 2015 Round 1C
+ * Problem B. Typewriter Monkey
+ */
 public class Main {
 
     private String solve(Scanner scanner) {

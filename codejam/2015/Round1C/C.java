@@ -1,6 +1,10 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * Codejam 2015 Round 1C
+ * Problem C. Less Money, More Problems
+ */
 public class Main {
 
     private String solve(Scanner scanner) {
