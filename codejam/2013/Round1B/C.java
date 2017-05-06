@@ -3,6 +3,10 @@ import java.io.PrintStream;
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * Codejam 2013 Round 1B
+ * Problem C. Garbled Email
+ */
 public class Main {
 
     private static HashSet<String> set;

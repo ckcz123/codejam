@@ -2,6 +2,10 @@ import java.io.PrintStream;
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * Codejam 2013 Round 1B
+ * Problem A. Osmos
+ */
 public class Main {
 
     public String solve(Scanner scanner) {
