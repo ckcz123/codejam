@@ -2,6 +2,10 @@ import java.io.PrintStream;
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * Codejam 2013 Round 3
+ * Problem A. Cheaters
+ */
 public class Main {
 
     private String solve(Scanner scanner) throws Throwable {
