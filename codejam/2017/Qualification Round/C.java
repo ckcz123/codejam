@@ -1,6 +1,10 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * Codejam 2017 Qualification Round
+ * Problem C: Bathroom Stalls
+ */
 public class Main {
 
     private String solve(Scanner scanner) {

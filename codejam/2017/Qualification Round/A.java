@@ -1,6 +1,10 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * Codejam 2017 Qualification Round
+ * Problem A: Oversized Pancake Flipper
+ */
 public class Main {
 
     private String solve(Scanner scanner) {
