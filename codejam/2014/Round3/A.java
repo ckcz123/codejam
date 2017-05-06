@@ -2,6 +2,10 @@ import java.io.PrintStream;
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * Codejam 2014 Round 3
+ * Problem A. Magical, Marvelous Tour
+ */
 public class Main {
 
     public String solve(Scanner scanner) {

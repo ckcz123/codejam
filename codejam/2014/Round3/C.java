@@ -2,6 +2,11 @@ import java.io.PrintStream;
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * Codejam 2014 Round 3
+ * Problem C. Crime House
+ * Only small solved.
+ */
 public class Main {
 
     public String solve(Scanner scanner) {

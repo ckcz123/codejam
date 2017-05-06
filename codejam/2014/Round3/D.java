@@ -2,6 +2,11 @@ import java.io.PrintStream;
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * Codejam 2014 Round 3
+ * Problem D. Willow
+ * Onlys small solved.
+ */
 public class Main {
 
     public String solve(Scanner scanner) {
