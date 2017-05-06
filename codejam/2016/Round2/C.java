@@ -1,6 +1,11 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * Codejam 2016 Round 2
+ * Problem C. The Gardener of Seville
+ * Only small solved.
+ */
 public class Main {
 
     private String solve(Scanner scanner) {
