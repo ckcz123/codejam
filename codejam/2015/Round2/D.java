@@ -2,6 +2,10 @@ import java.io.PrintStream;
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * Codejam 2015 Round 2
+ * Problem D. Drum Decorator
+ */
 public class Main {
 
     public String solve(Scanner scanner) {

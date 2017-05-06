@@ -1,6 +1,10 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * Codejam 2015 Round 2
+ * Problem B. Kiddie Pool
+ */
 public class Main {
 
     private class Source {
