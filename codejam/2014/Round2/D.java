@@ -2,6 +2,11 @@ import java.io.PrintStream;
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * Codejam 2014 Round 2
+ * Problem D. Trie Sharding
+ * Only small solved.
+ */
 public class Main {
 
     private String solve(Scanner scanner) {
