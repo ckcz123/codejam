@@ -4,6 +4,10 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.LongStream;
 
+/**
+ * Codejam 2017 Round 1A
+ * Problem B. Ratatouille
+ */
 public class Main {
 
     private String solve(Scanner scanner) {

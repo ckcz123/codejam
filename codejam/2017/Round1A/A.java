@@ -2,6 +2,10 @@ import java.io.PrintStream;
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * Codejam 2017 Round 1A
+ * Problem A. Alphabet Cake
+ */
 public class Main {
 
     private String solve(Scanner scanner) {
