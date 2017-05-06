@@ -1,6 +1,11 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * Codejam 2015 Round 3
+ * Problem C. Runaway Quail
+ * Only small solved.
+ */
 public class Main {
 
     class Quail {

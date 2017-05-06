@@ -2,6 +2,11 @@ import java.io.PrintStream;
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * Codejam 2015 Round 3
+ * Problem D. Log Set
+ * Only small solved.
+ */
 public class Main {
 
     private String solve(Scanner scanner) {

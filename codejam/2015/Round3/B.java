@@ -1,6 +1,10 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * Codejam 2015 Round 3
+ * Problem B. Smoothing Window
+ */
 public class Main {
 
     private String solve(Scanner scanner) {

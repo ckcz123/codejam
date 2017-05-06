@@ -1,6 +1,10 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * Codejam 2015 Round 3
+ * Problem A. Fairland
+ */
 public class Main {
 
     private class Interval {
