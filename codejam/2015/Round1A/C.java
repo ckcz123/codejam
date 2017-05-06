@@ -1,6 +1,10 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * Codejam 2015 Round 1A
+ * Problem C. Logging
+ */
 public class Main {
 
     class Point {
