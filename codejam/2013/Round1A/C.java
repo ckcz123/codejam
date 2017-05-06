@@ -6,10 +6,15 @@ import java.util.stream.Collectors;
 /**
  * Codejam 2013 Round 1A
  * Problem C. Good Luck
+ * Only small solved.
  */
 public class Main {
 
     private String solve(Scanner scanner) throws Throwable {
+        return solveSmall(scanner);
+    }
+
+    private String solveSmall(Scanner scanner) {
         int r=scanner.nextInt(),n=scanner.nextInt(),m=scanner.nextInt(),k=scanner.nextInt();
         ArrayList<String> ans=new ArrayList<>();
         ans.add("");
