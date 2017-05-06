@@ -2,6 +2,10 @@ import java.io.PrintStream;
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * Codejam 2014 Qualification Round
+ * Problem C. Minesweeper Master
+ */
 public class Main {
 
     private String solve(Scanner scanner) {

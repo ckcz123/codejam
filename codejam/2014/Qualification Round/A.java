@@ -1,6 +1,10 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * Codejam 2014 Qualification Round
+ * Problem A. Magic Trick
+ */
 public class Main {
 
     private String solve(Scanner scanner) {

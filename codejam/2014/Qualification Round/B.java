@@ -1,6 +1,10 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * Codejam 2014 Qualification Round
+ * Problem B. Cookie Clicker Alpha
+ */
 public class Main {
 
     private String solve(Scanner scanner) {
