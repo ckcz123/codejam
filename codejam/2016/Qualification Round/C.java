@@ -4,6 +4,10 @@ import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
+/**
+ * Codejam 2016 Qualification Round
+ * Problem C. Coin Jam
+ */
 public class Main {
 
     private String solve(Scanner scanner) {

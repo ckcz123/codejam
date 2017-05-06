@@ -1,6 +1,10 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * Codejam 2016 Qualification Round
+ * Problem A. Counting Sheep
+ */
 public class Main {
 
     private String solve(Scanner scanner) {
