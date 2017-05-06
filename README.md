@@ -24,7 +24,7 @@ ALL EXPLANATIONS AND JAVA SOLUTIONS HERE!
   - [Round 1B](codejam/2015/Round1B): A/B/C
   - [Round 1C](codejam/2015/Round1C): A/B/C
   - [Round 2](codejam/2015/Round2): A/B/C(s)/D
-  - [Round 3](codejam/2015/Round3): A/B/C(s)/D(s)
+  - [Round 3](codejam/2015/Round3): A/B/C(s)/D(s)/E
 - 2014
   - [Qualification Round](codejam/2014/Qualification%20Round): A/B/C/D
   - [Round 1A](codejam/2014/Round1A): A/B/C
