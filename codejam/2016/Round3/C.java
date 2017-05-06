@@ -1,6 +1,5 @@
 import java.io.PrintStream;
 import java.util.*;
-import java.util.stream.Collectors;
 
 /**
  * Codejam 2016 Round 3
