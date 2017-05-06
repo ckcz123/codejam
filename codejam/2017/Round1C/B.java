@@ -2,6 +2,10 @@ import java.io.PrintStream;
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * Codejam 2017 Round 1C
+ * Problem B. Parenting Partnering
+ */
 public class Main {
 
     class Interval implements Comparable<Interval> {

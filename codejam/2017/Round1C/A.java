@@ -2,6 +2,10 @@ import java.io.PrintStream;
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * Codejam 2017 Round 1C
+ * Problem A. Ample Syrup
+ */
 public class Main {
 
     class PanCake {
