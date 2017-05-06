@@ -1,6 +1,11 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * Codejam 2013 Round 1C
+ * Problem C. The Great Wall
+ * Only small solved.
+ */
 public class Main {
 
     public String solve(Scanner sc) {

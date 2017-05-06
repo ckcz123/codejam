@@ -4,6 +4,10 @@ import java.io.PrintStream;
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * Codejam 2013 Round 1C
+ * Problem A. Consonants
+ */
 public class Main {
 
     public String solve(Scanner scanner) throws Exception {
