@@ -1,6 +1,10 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * Codejam 2015 Round 1B
+ * Problem A. Counter Culture
+ */
 public class Main {
 
     private String solve(Scanner scanner) {

@@ -3,6 +3,10 @@ import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
+/**
+ * Codejam 2015 Round 1B
+ * Problem B. Noisy Neighbors
+ */
 public class Main {
 
     private String solve(Scanner scanner) {

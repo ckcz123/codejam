@@ -1,6 +1,10 @@
 import java.io.PrintStream;
 import java.util.*;
 
+/**
+ * Codejam 2015 Round 1B
+ * Problem C. Hiking Deer
+ */
 public class Main {
 
     class Hiker {
