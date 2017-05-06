@@ -2,6 +2,10 @@ import java.io.PrintStream;
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * Codejam 2016 Round 1C
+ * Problem A. Senate Evacuation
+ */
 public class Main {
 
     class Letter {

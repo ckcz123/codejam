@@ -3,6 +3,10 @@ import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
+/**
+ * Codejam 2016 Round 1C
+ * Problem C. Fashion Police
+ */
 public class Main {
 
     private String solve(Scanner scanner) {
