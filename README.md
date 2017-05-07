@@ -44,6 +44,7 @@ ALL EXPLANATIONS AND JAVA SOLUTIONS HERE!
 - 2017
   - [Practice Round](kickstart/2017/Practice%20Round): A/B/C
   - [Round A](kickstart/2017/RoundA): A/B/C
+  - [Round B](kickstart/2017/RoundB): A/B/C
 
 ### APAC
 - 2017
