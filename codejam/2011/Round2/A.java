@@ -2,6 +2,10 @@ import java.io.PrintStream;
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * Codejam 2011 Round 2
+ * Problem A.
+ */
 public class Main {
 
     class Interval {
