@@ -42,7 +42,7 @@ ALL EXPLANATIONS AND JAVA SOLUTIONS HERE!
 - 2012
   - [Round 2](codejam/2012/Round2): A/B/C/D(s)
 - 2011
-  - [Round 2](codejam/2011/Round2): A/B/C
+  - [Round 2](codejam/2011/Round2): A/B/C/D(s)
 
 ### KickStart
 - 2017

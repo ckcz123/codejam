@@ -4,7 +4,7 @@ import java.util.stream.Collectors;
 
 /**
  * Codejam 2011 Round 2
- * Problem A.
+ * Problem A. Airport Walkways
  */
 public class Main {
 
