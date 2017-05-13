@@ -43,6 +43,8 @@ ALL EXPLANATIONS AND JAVA SOLUTIONS HERE!
   - [Round 2](codejam/2012/Round2): A/B/C/D(s)
 - 2011
   - [Round 2](codejam/2011/Round2): A/B/C/D(s)
+- 2010
+  - [Round 2](codejam/2010/Round2): A/B/C(s)/D(s)
 
 ### KickStart
 - 2017
