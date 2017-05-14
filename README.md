@@ -11,6 +11,7 @@ ALL EXPLANATIONS AND JAVA SOLUTIONS HERE!
   - [Round 1A](codejam/2017/Round1A): A/B/C(s)
   - [Round 1B](codejam/2017/Round1B): A/B/C
   - [Round 1C](codejam/2017/Round1C): A/B/C(s)
+  - [Round 2](codejam/2017/Round2): A/B(s)/C(s)
 - 2016
   - [Qualification Round](codejam/2016/Qualification%20Round): A/B/C/D
   - [Round 1A](codejam/2016/Round1A): A/B/C
