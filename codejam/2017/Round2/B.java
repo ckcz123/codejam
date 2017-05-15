@@ -2,6 +2,10 @@ import java.io.PrintStream;
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * Codejam 2017 Round 2
+ * Problem B. Roller Coaster Scheduling
+ */
 public class Main {
 
     private String solve(Scanner scanner) {
