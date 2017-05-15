@@ -2,14 +2,23 @@ import java.io.PrintStream;
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * Codejam 2009 Round 2
+ * Problem C. Stock Charts
+ * Only small solved.
+ */
 public class Main {
 
     private String solve(Scanner scanner) {
+        return solveSmall(scanner);
+    }
+
+    private String solveSmall(Scanner scanner) {
         int n=scanner.nextInt(), k=scanner.nextInt();
-        int[][] prices=new int[n][k];
+        long[][] prices=new long[n][k];
         for (int i=0;i<n;i++) {
             for (int j=0;j<k;j++)
-                prices[i][j]=scanner.nextInt();
+                prices[i][j]=scanner.nextLong();
         }
         boolean[][] able=new boolean[n][n];
         for (int i=0;i<n;i++) {
@@ -20,63 +29,43 @@ public class Main {
                         can=false;break;
                     }
                 }
-                if (!can) continue;
-                //able[i][j]=able[j][i]=can;
-                if (prices[i][0]<prices[j][0])
-                    able[i][j]=true;
-                else able[j][i]=true;
+                able[i][j]=able[j][i]=can;
             }
         }
+        HashSet<Integer> set=new HashSet<>();
+        for (int i=1;i<(1<<n);i++) {
+            ArrayList<Integer> list=new ArrayList<>();
+            for (int j=0;j<n;j++) {
+                if ((i&(1<<j))!=0) list.add(j);
+            }
+            boolean can=true;
+            for (int x=0;x<list.size();x++) {
+                for (int y=x+1;y<list.size();y++) {
+                    if (!able[list.get(x)][list.get(y)]) {
+                        can=false;break;
+                    }
+                }
+                if (!can) break;
+            }
+            if (can)
+                set.add(i);
+        }
+
         int[] dp=new int[1<<n];
         for (int i=1;i<(1<<n);i++) {
-            dp[i]=dp(n, able, i, dp);
+            int ans=Integer.MAX_VALUE/10;
+            if (set.contains(i)) {
+                dp[i]=1;
+                continue;
+            }
+            for (int l: set) {
+                if ((i&l)!=l) continue;
+                ans=Math.min(ans, dp[i^l]);
+                if (ans==1) break;
+            }
+            dp[i]=1+ans;
         }
         return String.valueOf(dp[(1<<n)-1]);
-
-    }
-
-    private int dp(int n, boolean[][] able, int state, int[] dp) {
-        boolean[] used=new boolean[n];
-        int curr=0;
-        for (int i=0;i<n;i++) {
-            if ((state&(1<<i))==0)
-                used[i]=true;
-        }
-        int[] cnt=new int[n];
-        for (int i=0;i<n;i++) {
-            for (int j=0;j<n;j++) {
-                if (used[i] || used[j] || !able[i][j]) continue;
-                cnt[j]++;
-            }
-        }
-        for (int i=0;i<n;i++) {
-            if (!used[i] && cnt[i]==0) {
-                curr=i;
-            }
-        }
-        ArrayList<ArrayList<Integer>> lists=generate(n, used, able, new ArrayList<>(), curr,
-                new ArrayList<>());
-        int ans=Integer.MAX_VALUE/10;
-        for (ArrayList<Integer> list: lists) {
-            int ns=state;
-            for (int v: list) ns^=(1<<v);
-            ans=Math.min(ans, dp[ns]);
-        }
-        return 1+ans;
-    }
-
-    private ArrayList<ArrayList<Integer>> generate(int n, boolean[] used,
-                                                   boolean[][] able, ArrayList<Integer> route,
-                                                   int curr, ArrayList<ArrayList<Integer>> ans) {
-        ArrayList<Integer> list=new ArrayList<>(route);
-        list.add(curr);
-        ans.add(list);
-        for (int i=0;i<n;i++) {
-            if (!used[i] && able[curr][i]) {
-                generate(n, used, able, list, i, ans);
-            }
-        }
-        return ans;
     }
 
     public static void main(String[] args) throws Exception {
