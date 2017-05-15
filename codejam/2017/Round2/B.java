@@ -5,75 +5,43 @@ import java.util.stream.Collectors;
 public class Main {
 
     private String solve(Scanner scanner) {
-        return solveSmall(scanner);
-    }
-
-    private String solveSmall(Scanner scanner) {
         int n=scanner.nextInt(), c=scanner.nextInt(), m=scanner.nextInt();
-        ArrayList<Integer> alist=new ArrayList<>(), blist=new ArrayList<>();
-        for (int i=0;i<m;i++) {
-            int x=scanner.nextInt(), y=scanner.nextInt();
-            if (y==1) alist.add(x);
-            else blist.add(x);
+        ArrayList<Integer>[] lists=new ArrayList[n];
+        for (int i=0;i<n;i++) lists[i]=new ArrayList<>();
+        for (int i=0;i<m;i++)
+            lists[scanner.nextInt()-1].add(scanner.nextInt()-1);
+        int start=1, end=m;
+        while (start<end) {
+            int mid=(start+end)/2;
+            if (cal(n, c, lists, mid)!=-1) end=mid;
+            else start=mid+1;
         }
-        int[] a=alist.stream().sorted().mapToInt(i->i).toArray();
-        int[] b=blist.stream().sorted().mapToInt(i->i).toArray();
-        int left=a.length, right=b.length;
-        if (left==0 || right==0) return Math.max(left, right)+" 0";
-        boolean[][] g=new boolean[left+1][right+1];
-        for (int i=0;i<left;i++) {
-            for (int j=0;j<right;j++) {
-                if (a[i]!=b[j]) {
-                    g[i+1][j+1]=true;
-                }
-            }
-        }
-        int[] match=new int[right+1];
-        for (int i=1;i<=left;i++) {
-            dfs(i, left, right, match, g, new boolean[right+1]);
-        }
-        int cnt=0;
-        boolean[] vLeft=new boolean[left+1], vRight=new boolean[right+1];
-        for (int i=1;i<=right;i++) {
-            if (match[i]!=0) {
-                vLeft[match[i]]=true;
-                vRight[i]=true;
-                cnt++;
-            }
-        }
-        int al=0, bl=0, v=0;
-        for (int i=1;i<=left;i++) {
-            if (!vLeft[i]) {
-                al++; v=a[i-1];
-            }
-        }
-        for (int i=1;i<=right;i++) {
-            if (!vRight[i]) {
-                bl++; v=b[i-1];
-            }
-        }
-        if (al==0 || bl==0) {
-            return (cnt+al+bl)+" 0";
-        }
-        else if (v==1) {
-            return (cnt+al+bl)+" 0";
-        }
-        else {
-            return (cnt+Math.max(al, bl))+" "+Math.min(al, bl);
-        }
+        return start+" "+cal(n, c, lists, start);
     }
 
-    private boolean dfs(int u, int left, int right, int[] match, boolean[][] g, boolean[] visit) {
-        for (int i=1;i<=right;i++) {
-            if (g[u][i] && !visit[i]) {
-                visit[i]=true;
-                if (match[i]==0 || dfs(match[i], left, right, match, g, visit)) {
-                    match[i]=u;
-                    return true;
+    private int cal(int n, int c, ArrayList<Integer>[] lists, int candidate) {
+        int[] available=new int[c];
+        for (int i=0;i<c;i++) available[i]=candidate;
+        int promote=0;
+        Queue<Integer> users=new LinkedList<>();
+        for (int i=n-1;i>=0;i--) {
+            int tickets=candidate;
+            for (int user: lists[i]) {
+                if (available[user]>0 && tickets>0) {
+                    available[user]--; tickets--;
                 }
+                else users.offer(user);
+            }
+            while (tickets>0 && !users.isEmpty()) {
+                int user=users.poll();
+                if (available[user]==0) return -1;
+                promote++;
+                tickets--;
+                available[user]--;
             }
         }
-        return false;
+        if (!users.isEmpty()) return -1;
+        return promote;
     }
 
     public static void main(String[] args) throws Exception {
