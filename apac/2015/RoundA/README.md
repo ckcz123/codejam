@@ -15,7 +15,7 @@ Be care of `2 2 4 4`.
 
 A hard problem. Very hard to implement.  
 For each variable, try to write it to `ax+b`, where a is flag (1/-1), b is a constant,
-x is a variable (union-find/bfs).  
+x is a variable (unionFind-find/bfs).  
 Then check if each variable can be calculated.  
 Finally, check if we can calculate `(ax+b)+(cy+d)`.(Iff x and y both can be calculated, or x=y and a+c=0.)  
 Be careful of these cases:
