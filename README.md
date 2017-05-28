@@ -48,6 +48,7 @@ ALL EXPLANATIONS AND JAVA SOLUTIONS HERE!
   - [Round 2](codejam/2012/Round2): A/B/C/D(s)
   - [Round 3](codejam/2012/Round3): A/B/C(s)/D(s)
 - 2011
+  - [Qualification Round](codejam/2011/Qualification%20Round): A/B/C/D
   - [Round 2](codejam/2011/Round2): A/B/C/D(s)
 - 2010
   - [Round 2](codejam/2010/Round2): A/B/C(s)/D(s)
