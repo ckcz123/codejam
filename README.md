@@ -55,6 +55,7 @@ ALL EXPLANATIONS AND JAVA SOLUTIONS HERE!
   - [Round 2](codejam/2011/Round2): A/B/C/D(s)
   - [Round 3](codejam/2011/Round3): A/B/C(s)/D(s)
 - 2010
+  - [Qualification Round](codejam/2010/Qualification%20Round): A/B/C
   - [Round 1A](codejam/2010/Round1A): A/B
   - [Round 2](codejam/2010/Round2): A/B/C(s)/D(s)
 - 2009
