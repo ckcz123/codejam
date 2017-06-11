@@ -60,6 +60,7 @@ ALL EXPLANATIONS AND JAVA SOLUTIONS HERE!
   - [Round 1B](codejam/2010/Round1B): A/B/C
   - [Round 1C](codejam/2010/Round1C): A/B/C
   - [Round 2](codejam/2010/Round2): A/B/C(s)/D(s)
+  - [Round 3](codejam/2010/Round3): A/B(s)/C/D(s)
 - 2009
   - [Round 2](codejam/2009/Round2): A/B/C(s)/D(s)
 
