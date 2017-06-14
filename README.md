@@ -64,6 +64,7 @@ ALL EXPLANATIONS AND JAVA SOLUTIONS HERE!
   - [Round 3](codejam/2010/Round3): A/B(s)/C/D(s)
 - 2009
   - [Qualification Round](codejam/2009/Qualification%20Round): A/B/C
+  - [Round 1A](codejam/2009/Round1A): A/B/C
   - [Round 2](codejam/2009/Round2): A/B/C(s)/D(s)
 
 ### KickStart
