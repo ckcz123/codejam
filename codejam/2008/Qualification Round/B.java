@@ -7,6 +7,7 @@ import java.util.stream.Collectors;
  * Codejam 2008 Qualification Round
  * Problem B. Train Timetable
  */
+
 public class Main {
 
     public String solve(Scanner scanner) {
