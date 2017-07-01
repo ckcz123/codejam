@@ -7,7 +7,6 @@ import java.util.stream.Collectors;
  * Codejam 2008 Qualification Round
  * Problem A. Saving the Universe
  */
-
 public class Main {
 
     public String solve(Scanner scanner) {
