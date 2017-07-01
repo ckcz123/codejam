@@ -4,8 +4,8 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 /**
- * KickStart 2017 Round C Problem C. Magical Thinking
- * Check README.md for explanation.
+ * KickStart 2017 Round C
+ * Problem C. Magical Thinking
  */
 public class Main {
 
