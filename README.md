@@ -1,7 +1,7 @@
 # Codejam
 Codejam, apac, kickstart, I/O for Women...  2017, 2016, 2015, 2014...  
 https://code.google.com/codejam/past-contests  
-ALL EXPLANATIONS AND JAVA SOLUTIONS HERE!
+ALL JAVA SOLUTIONS HERE!
 
 ## Contest List
 
@@ -77,36 +77,36 @@ ALL EXPLANATIONS AND JAVA SOLUTIONS HERE!
 
 ### KickStart
 - 2017
-  - [Practice Round](kickstart/2017/Practice%20Round): A/B/C
-  - [Round A](kickstart/2017/RoundA): A/B/C
-  - [Round B](kickstart/2017/RoundB): A/B/C
+  - [Practice Round](kickstart/2017/Practice%20Round): A/B/C [Explanations]
+  - [Round A](kickstart/2017/RoundA): A/B/C [Explanations]
+  - [Round B](kickstart/2017/RoundB): A/B/C [Explanations]
   - [Round C](kickstart/2017/RoundC): A/B/C/D
 
 ### APAC
 - 2017
-  - [Practice Round](apac/2017/Practice%20Round): A/B/C/D
-  - [Round A](apac/2017/RoundA): A/B/C/D
-  - [Round B](apac/2017/RoundB): A/B/C/D
-  - [Round C](apac/2017/RoundC): A/B/C/D
-  - [Round D](apac/2017/RoundD): A/B/C/D
-  - [Round E](apac/2017/RoundE): A/B/C/D(s)
+  - [Practice Round](apac/2017/Practice%20Round): A/B/C/D [Explanations]
+  - [Round A](apac/2017/RoundA): A/B/C/D [Explanations]
+  - [Round B](apac/2017/RoundB): A/B/C/D [Explanations]
+  - [Round C](apac/2017/RoundC): A/B/C/D [Explanations]
+  - [Round D](apac/2017/RoundD): A/B/C/D [Explanations]
+  - [Round E](apac/2017/RoundE): A/B/C/D(s) [Explanations]
 - 2016
-  - [Practice Round](apac/2016/Practice%20Round): A/B/C
-  - [Round A](apac/2016/RoundA): A/B/C/D
-  - [Round B](apac/2016/RoundB): A/B/C/D
-  - [Round C](apac/2016/RoundC): A/B/C/D
-  - [Round D](apac/2016/RoundD): A/B/C/D
-  - [Round E](apac/2016/RoundE): A/B/C/D
+  - [Practice Round](apac/2016/Practice%20Round): A/B/C [Explanations]
+  - [Round A](apac/2016/RoundA): A/B/C/D [Explanations]
+  - [Round B](apac/2016/RoundB): A/B/C/D [Explanations]
+  - [Round C](apac/2016/RoundC): A/B/C/D [Explanations]
+  - [Round D](apac/2016/RoundD): A/B/C/D [Explanations]
+  - [Round E](apac/2016/RoundE): A/B/C/D [Explanations]
 - 2015
-  - [Round A](apac/2015/RoundA): A/B/C/D
-  - [Round B](apac/2015/RoundB): A/B/C/D
-  - [Round C](apac/2015/RoundC): A/B/C/D
-  - [Round D](apac/2015/RoundD): A/B/C/D
+  - [Round A](apac/2015/RoundA): A/B/C/D [Explanations]
+  - [Round B](apac/2015/RoundB): A/B/C/D [Explanations]
+  - [Round C](apac/2015/RoundC): A/B/C/D [Explanations]
+  - [Round D](apac/2015/RoundD): A/B/C/D [Explanations]
   
 ### Codejam to I/O for Women
-- [2017](IO%20for%20Women/2017): A/B/C/D
-- [2016](IO%20for%20Women/2016): A/B/C/D
-- [2015](IO%20for%20Women/2015): A/B/C/D
+- [2017](IO%20for%20Women/2017): A/B/C/D [Explanations]
+- [2016](IO%20for%20Women/2016): A/B/C/D [Explanations]
+- [2015](IO%20for%20Women/2015): A/B/C/D [Explanations]
 
 ### Other Contests
 To be continued...
