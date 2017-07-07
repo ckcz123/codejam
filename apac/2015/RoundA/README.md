@@ -9,7 +9,7 @@ Just check for all start time and all possible broken LED sets.
 ## Problem B: Super 2048
 
 Simple problem. Brute force is enough.  
-Be care of `2 2 4 4`.
+Be care of some cases such as `2 2 4 4`.
  
 ## Problem C: Addition
 
