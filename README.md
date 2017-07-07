@@ -73,6 +73,7 @@ ALL EXPLANATIONS AND JAVA SOLUTIONS HERE!
   - [Qualification Round](codejam/2008/Qualification%20Round): A/B/C
   - [Round 1A](codejam/2008/Round1A): A/B/C
   - [Round 1B](codejam/2008/Round1B): A/B/C
+  - [Round 1C](codejam/2008/Round1C): A/B/C
 
 ### KickStart
 - 2017
