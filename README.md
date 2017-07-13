@@ -74,6 +74,7 @@ ALL JAVA SOLUTIONS HERE!
   - [Round 1A](codejam/2008/Round1A): A/B/C
   - [Round 1B](codejam/2008/Round1B): A/B/C
   - [Round 1C](codejam/2008/Round1C): A/B/C
+  - [Round 3](codejam/2008/Round3): A/B/C/D
 
 ### KickStart
 - 2017
