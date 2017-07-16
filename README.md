@@ -82,6 +82,7 @@ ALL JAVA SOLUTIONS HERE!
   - [Round A](kickstart/2017/RoundA): A/B/C [Explanations]
   - [Round B](kickstart/2017/RoundB): A/B/C [Explanations]
   - [Round C](kickstart/2017/RoundC): A/B/C/D
+  - [Round D](kickstart/2017/RoundD): A/B(s)/C
 
 ### APAC
 - 2017
