@@ -74,7 +74,11 @@ ALL JAVA SOLUTIONS HERE!
   - [Round 1A](codejam/2008/Round1A): A/B/C
   - [Round 1B](codejam/2008/Round1B): A/B/C
   - [Round 1C](codejam/2008/Round1C): A/B/C
+  - [Round 2](codejam/2008/Round2):
   - [Round 3](codejam/2008/Round3): A/B/C/D
+  - [APAC Semifinal](codejam/2008/Semifinal%20APAC):
+  - [AMER Semifinal](codejam/2008/Semifinal%20AMER): A/C/D(s)
+  - [EMEA Semifinal](codejam/2008/Semifinal%20EMEA):
 
 ### KickStart
 - 2017
@@ -114,5 +118,5 @@ ALL JAVA SOLUTIONS HERE!
 To be continued...
 
 ## Contact Me
-Any questions or suggestions, don't forget to contact me at
+Any questions or suggestions, just post an issue, or contact me at
  [ckcz12345@gmail.com](mailto:ckcz12345@gmail.com).
