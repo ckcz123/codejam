@@ -78,7 +78,7 @@ ALL JAVA SOLUTIONS HERE!
   - [Round 3](codejam/2008/Round3): A/B/C/D
   - [APAC Semifinal](codejam/2008/Semifinal%20APAC): A/B/C/D
   - [AMER Semifinal](codejam/2008/Semifinal%20AMER): A/C/D(s)
-  - [EMEA Semifinal](codejam/2008/Semifinal%20EMEA): A/B
+  - [EMEA Semifinal](codejam/2008/Semifinal%20EMEA): A/B/C
 
 ### KickStart
 - 2017
