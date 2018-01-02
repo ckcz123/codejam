@@ -117,6 +117,12 @@ ALL JAVA SOLUTIONS HERE!
 - [2016](IO%20for%20Women/2016): A/B/C/D [Explanations]
 - [2015](IO%20for%20Women/2015): A/B/C/D [Explanations]
 
+### Facebook Hacker Cup
+- 2017
+  - [Qualification Round](Facebook%20Hacker%20Cup/2017/Qualification%20Round): A/B/C
+  - [Round1](Facebook%20Hacker%20Cup/2017/Round1): A/B/C
+  - [Round2](Facebook%20Hacker%20Cup/2017/Round2): A/D
+
 ### Other Contests
 To be continued...
 
