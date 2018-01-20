@@ -122,6 +122,7 @@ ALL JAVA SOLUTIONS HERE!
   - [Qualification Round](Facebook%20Hacker%20Cup/2017/Qualification%20Round): A/B/C
   - [Round1](Facebook%20Hacker%20Cup/2017/Round1): A/B/C
   - [Round2](Facebook%20Hacker%20Cup/2017/Round2): A/D
+  - [Round3](Facebook%20Hacker%20Cup/2017/Round3): A/B
 
 ### Other Contests
 To be continued...
