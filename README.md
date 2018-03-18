@@ -81,6 +81,8 @@ ALL JAVA SOLUTIONS HERE!
   - [EMEA Semifinal](codejam/2008/Semifinal%20EMEA): A/B/C
 
 ### KickStart
+- 2018
+  - [Round A](kickstart/2018/RoundA): A/B(s)/C(s)
 - 2017
   - [Practice Round](kickstart/2017/Practice%20Round): A/B/C [Explanations]
   - [Round A](kickstart/2017/RoundA): A/B/C [Explanations]
