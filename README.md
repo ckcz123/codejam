@@ -83,7 +83,7 @@ ALL JAVA SOLUTIONS HERE!
 ### KickStart
 - 2018
   - [Round A](kickstart/2018/RoundA): A/B(s)/C(s)
-  - [Round C](kickstart/2018/RoundC): A/B(s)/C(s)
+  - [Round C](kickstart/2018/RoundC): A/B/C
 - 2017
   - [Practice Round](kickstart/2017/Practice%20Round): A/B/C [Explanations]
   - [Round A](kickstart/2017/RoundA): A/B/C [Explanations]
