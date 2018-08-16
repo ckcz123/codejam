@@ -21,4 +21,4 @@ Finally, the result is
 
 ## Problem C: Sherlock and Parentheses
    
-`x*(x+1)/2, where x=max(l, r)`.
+`x*(x+1)/2, where x=min(l, r)`.
