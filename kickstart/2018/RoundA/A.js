@@ -1,3 +1,8 @@
+/**
+ * KickStart 2018 Round A
+ * Problem A. Even Digits
+ * Both solved
+ */
 let fs= require('fs');
 let input= fs.readFileSync(0,'utf8').trim().split('\n').slice(1);
 console.log(input.map((e,i)=>`Case #${i+1}: ${solve(e)}`).join('\n'));
@@ -38,9 +43,10 @@ function solve(str){
  (check out Number.MAX_SAFE_INTEGER)... yet (BigInt and other stuff is coming)
  so in order to solve A-large subproblem I implemented the function
  getDiff which determines a difference between two numbers represented
- as strings: for example getDiff('13','2')-> 11, getDiff('5','8')-> 3 and so on
+ as strings: for example getDiff('13','2')-> '11', getDiff('5','8')-> '03' etc.
 
 */
+
 function getDiff(a, b)
 {
   const len= Math.max(a.length, b.length);
