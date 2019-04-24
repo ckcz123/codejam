@@ -9,6 +9,29 @@ const fs= require('fs'),
   .map(e=>e.trim().split('\n'));
 console.log(input.map((e,i)=>`Case #${i+1}: ${solve(e)}`).join('\n'));
 
+// fast solution
+function solve(arr) {
+  let departure= [], dest=[];
+  let h= {};
+  let r= [];
+
+  arr.forEach((city,i)=>{
+    i%2?
+    (dest.push(city), h[city]=true)
+    :departure.push(city)
+  });
+
+  let city= departure.find(e=>!h[e]);
+  let times= departure.length;
+
+  departure.forEach((e,i)=>h[e]=dest[i]);
+
+  while (times--) r.push(city+'-'+(city=h[city]));
+
+  return r.join(' ');
+}
+
+// slow solution
 function solve(arr){
     let dep= arr.filter((_,i)=>i%2===0);
     let dest= arr.filter((_,i)=>i%2);
