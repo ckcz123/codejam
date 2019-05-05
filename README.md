@@ -6,6 +6,8 @@ ALL JAVA SOLUTIONS HERE!
 ## Contest List
 
 ### Codejam
+- 2019
+  - [Round 1C](codejam/2019/Round1C): A/B/C(s)
 - 2017
   - [Qualification Round](codejam/2017/Qualification%20Round): A/B/C/D
   - [Round 1A](codejam/2017/Round1A): A/B/C(s)
